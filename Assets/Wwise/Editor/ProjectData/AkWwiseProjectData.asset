@@ -320,6 +320,33 @@ MonoBehaviour:
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
   BankWwu:
+  - PhysicalPath: SoundBanks\Ambience.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ambience
+      ObjectType: 12
+      guid: 71ca2d731c07c640a4fc5f0cfeab429d
+    ParentPath: SoundBanks\Ambience
+    guid: 71ca2d731c07c640a4fc5f0cfeab429d
+    GuidInternal: 
+    m_lastTime: -8584721693543981227
+    List:
+    - name: Ambience
+      guid: c59dc61faf7ece4faa46bd14ef6d1360
+      id: 85412153
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 71ca2d731c07c640a4fc5f0cfeab429d
+      - ElementName: Ambience
+        ObjectType: 7
+        guid: c59dc61faf7ece4faa46bd14ef6d1360
+      Path: SoundBanks\Ambience\Ambience
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -334,6 +361,36 @@ MonoBehaviour:
     m_lastTime: -8584721831053115536
     List: []
   EventWwu:
+  - PhysicalPath: Events\Ambience.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ambience
+      ObjectType: 12
+      guid: a4831ea1310f1e4b8b91befcaae9a5f9
+    ParentPath: Events\Ambience
+    guid: a4831ea1310f1e4b8b91befcaae9a5f9
+    GuidInternal: 
+    m_lastTime: -8584721695108147856
+    List:
+    - name: PlayAmbience
+      guid: 95ea1947ba9b774baed7bfb94df4e46f
+      id: 1765704519
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: PlayAmbience
+        ObjectType: 3
+        guid: 95ea1947ba9b774baed7bfb94df4e46f
+      Path: Events\Ambience\PlayAmbience
+      maxAttenuation: 0
+      maxDuration: 76.83683
+      minDuration: 76.83683
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -557,7 +614,7 @@ MonoBehaviour:
     m_lastTime: -8584721831052858607
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 08000000090000000a000000c2000000c3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

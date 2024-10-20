@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1765704519	PlayAmbience			\Ambience\PlayAmbience	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	97728004	Roomtone_LivingRoom_CarsOutside	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Roomtone_LivingRoom_CarsOutside_1D83C363.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roomtone_LivingRoom_CarsOutside		14752768
+
