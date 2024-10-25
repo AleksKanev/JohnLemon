@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 15784330833db9448040aa9d450c2447
     GuidInternal: 
-    m_lastTime: -8584721831052698582
+    m_lastTime: -8584717113600280199
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584721834694270226
+    m_lastTime: -8584717113600280199
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: dd7c433d30307640bc2c2070ddb41a8a
     GuidInternal: 
-    m_lastTime: -8584721831053014169
+    m_lastTime: -8584717113602460233
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Ambience
     guid: 71ca2d731c07c640a4fc5f0cfeab429d
     GuidInternal: 
-    m_lastTime: -8584719193072925559
+    m_lastTime: -8584717113600290197
     List:
     - name: Ambience
       guid: c59dc61faf7ece4faa46bd14ef6d1360
@@ -372,7 +372,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: cd17e34cbfc6ae458508a0c53148363f
     GuidInternal: 
-    m_lastTime: -8584721831053115536
+    m_lastTime: -8584717113600290197
     List: []
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
@@ -386,7 +386,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: d76436dc2e9b1149ad6a4532afc32e52
     GuidInternal: 
-    m_lastTime: -8584721831053245571
+    m_lastTime: -8584717113603300232
     List: []
   - PhysicalPath: Events\Events.wwu
     PathAndIcons:
@@ -399,7 +399,7 @@ MonoBehaviour:
     ParentPath: Events\Events
     guid: a4831ea1310f1e4b8b91befcaae9a5f9
     GuidInternal: 
-    m_lastTime: -8584719188945913220
+    m_lastTime: -8584717113603300232
     List:
     - name: Ambience
       guid: 04eae7c88d8ece4aade51bef31db8c8a
@@ -473,8 +473,8 @@ MonoBehaviour:
         guid: 30205a215ce29049a67d9ebe83e44251
       Path: Events\Events\JohnLemon\PlayFootsteps
       maxAttenuation: 0
-      maxDuration: 1.644667
-      minDuration: 0.18528746
+      maxDuration: -1
+      minDuration: -1
     - name: PlayGhosts
       guid: d49bdc28f976544a837ac32eb2058ea0
       id: 3520174363
@@ -567,7 +567,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 1de4d70ba97a5a4482080df73cfdb665
     GuidInternal: 
-    m_lastTime: -8584721831052994233
+    m_lastTime: -8584717113603290233
     List: []
   - PhysicalPath: Game Parameters\Factory Soundseed Air Game Syncs.wwu
     PathAndIcons:
@@ -580,7 +580,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory Soundseed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8584721834468494819
+    m_lastTime: -8584717113603290233
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -734,7 +734,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: c88076357aa5dd4d923008b1aed67197
     GuidInternal: 
-    m_lastTime: -8584721831053155527
+    m_lastTime: -8584717113600280199
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -748,7 +748,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 38c9e6fce9de404a9dfb68f2630f6526
     GuidInternal: 
-    m_lastTime: -8584720116028343911
+    m_lastTime: -8584717113600280199
     List:
     - name: Footstep_material
       guid: 20a13a23ef04744cb398e6486008a147
@@ -828,7 +828,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: e0b577df7bafd24fa20a44e8c63f81ee
     GuidInternal: 
-    m_lastTime: -8584721831052858607
+    m_lastTime: -8584717113600280199
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 050000000600000008000000090000000a0000000c0000000d000000110000001200000013000000c2000000c3000000
