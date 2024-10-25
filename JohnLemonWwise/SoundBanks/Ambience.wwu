@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="JohnLemon" ID="{B44829B5-AFEB-42EB-9C22-3AC1C8B7363E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayFootsteps" ID="{215A2030-E25C-4990-A67D-9EBE83E44251}" WorkUnitID="{A11E83A4-0F31-4B1E-8B91-BEFCAAE9A5F9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

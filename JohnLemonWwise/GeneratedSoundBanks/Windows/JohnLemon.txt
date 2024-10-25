@@ -1,0 +1,47 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1088348632	PlayFootsteps			\Ambience\PlayFootsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	684570577	Footstep_material			\Default Work Unit\Footstep_material	
+
+Switch	ID	Name	Switch Group			Notes
+	2058049674	Wood	Footstep_material			
+	2412606308	Carpet	Footstep_material			
+	2637588553	Tile	Footstep_material			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	947024894	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\Silencio\Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	14373136	Footstep_carpet_2	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_carpet_2_BCA767FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Carpet\Footstep_carpet_2		39492
+	31592375	WoodCreaks_1	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_1_DDA92360.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_1		98428
+	36513077	Footstep_carpet_5	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_carpet_5_9F14989E.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Carpet\Footstep_carpet_5		48096
+	43829083	Footstep_tile_4	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_tile_4_0EDA2F15.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Tile\Footstep_tile_4		110608
+	53338028	WoodCreaks_7	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_7_BEB06E3F.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_7		109032
+	53435885	Footstep_tile_6	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_tile_6_DF8C1F7C.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Tile\Footstep_tile_6		118808
+	93957513	Footstep_wood_6	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_wood_6_4583BCA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Wood\Footstep_wood_6		135632
+	124540074	Footstep_wood_2	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_wood_2_49AAFD1C.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Wood\Footstep_wood_2		115840
+	134349442	WoodCreaks_4	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_4_463F846B.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_4		139566
+	161344702	Footstep_tile_1	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_tile_1_EE2D4920.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Tile\Footstep_tile_1		82264
+	168176786	Footstep_carpet_7	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_carpet_7_2CEF4147.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Carpet\Footstep_carpet_7		60008
+	193200324	Footstep_tile_5	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_tile_5_8434AA40.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Tile\Footstep_tile_5		109528
+	305950994	WoodCreaks_9	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_9_B18FFF33.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_9		127486
+	383007768	WoodCreaks_8	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_8_D351F7BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_8		145156
+	393583208	WoodCreaks_3	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_3_A111360D.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_3		90410
+	398411289	Footstep_tile_7	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_tile_7_2B473F92.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Tile\Footstep_tile_7		119652
+	415385863	WoodCreaks_6	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_6_15B08280.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_6		94842
+	449465850	Footstep_tile_2	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_tile_2_5A407C6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Tile\Footstep_tile_2		119508
+	477147806	Footstep_carpet_6	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_carpet_6_B912C5FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Carpet\Footstep_carpet_6		45132
+	547546002	WoodCreaks_2	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_2_53FFFCAB.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_2		92994
+	661306024	Footstep_wood_3	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_wood_3_129A0C43.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Wood\Footstep_wood_3		108748
+	686094006	Footstep_carpet_4	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_carpet_7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Carpet\Footstep_carpet_4		62720
+	691853918	Footstep_wood_5	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_wood_5_9785B2D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Wood\Footstep_wood_5		128888
+	785657548	WoodCreaks_5	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\WoodCreaks_5_59154FF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Wood_Creaks\WoodCreaks_5		99762
+	785804744	Footstep_wood_7	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_wood_7_FC2235F0.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Wood\Footstep_wood_7		144132
+	842404422	Footstep_wood_1	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_wood_1_A3712B5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Wood\Footstep_wood_1		116736
+	882982404	Footstep_carpet_3	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_carpet_3_34DCAAB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Carpet\Footstep_carpet_3		44728
+	945019216	Footstep_tile_3	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_tile_3_3C6E818F.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Tile\Footstep_tile_3		118496
+	965284162	Footstep_tile_8	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_tile_8_851FE63F.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Tile\Footstep_tile_8		126308
+	970342114	Footstep_wood_4	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_wood_4_B4C52E3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Wood\Footstep_wood_4		127328
+	1016720947	Footstep_carpet_1	C:\UNITY_proj\JohnLemon\JohnLemonWwise\.cache\Windows\SFX\Footstep_carpet_1_B4698A5D.wem		\Actor-Mixer Hierarchy\Default Work Unit\JohnLemon\Footsteps\Footsteps_Carpet\Footstep_carpet_1		32780
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A11E83A4-0F31-4B1E-8B91-BEFCAAE9A5F9}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Events" ID="{A11E83A4-0F31-4B1E-8B91-BEFCAAE9A5F9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambience" ID="{C8E7EA04-8E8D-4ACE-ADE5-1BEF31DB8C8A}" ShortID="779767378">
+					<ChildrenList>
+						<Event Name="PlayAmbience" ID="{4719EA95-9BBA-4B77-AED7-BFB94DF4E46F}">
+							<ChildrenList>
+								<Action Name="" ID="{A91B1916-138E-45BC-B48C-10252C79A5B8}" ShortID="841264949">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Roomtone_LivingRoom_CarsOutside" ID="{F8C153A1-6B47-4691-B586-CC9217678C0F}" WorkUnitID="{97E42B1D-A403-4C91-A7F1-2452A8F2FCF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayLights" ID="{99BDB9E6-A922-49A8-8F82-AC063275AEDF}"/>
+						<Event Name="PlayShower" ID="{86A58CBC-7463-48A8-A5A4-0BD98616E727}"/>
+						<Event Name="PlayGhosts" ID="{28DC9BD4-76F9-4A54-837A-C32EB2058EA0}"/>
+						<Event Name="PlayGorgoyle" ID="{D525F9C6-FE43-4964-8F1E-A063FCCE8B8E}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="JohnLemon" ID="{FFA2BF96-225C-4B5E-BD2A-41F88D2F5262}" ShortID="762193713">
+					<ChildrenList>
+						<Event Name="PlayFootsteps" ID="{215A2030-E25C-4990-A67D-9EBE83E44251}">
+							<ChildrenList>
+								<Action Name="" ID="{7F4993EF-0232-4565-897F-543E753DF8D0}" ShortID="511621125">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{316DCCC4-89A6-4AE8-8D4A-A111A312229C}" WorkUnitID="{97E42B1D-A403-4C91-A7F1-2452A8F2FCF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

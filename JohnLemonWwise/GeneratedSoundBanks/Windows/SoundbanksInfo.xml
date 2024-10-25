@@ -9,24 +9,225 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{1814B848-7B3A-1545-1B70-AD5A99ADC18C}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{FA504CBC-1549-3047-0682-E38F762C1C93}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
 				<File Id="97728004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Roomtone_LivingRoom_CarsOutside.WAV</ShortName>
-					<CachePath>SFX/Roomtone_LivingRoom_CarsOutside_1D83C363.wem</CachePath>
+					<CachePath>SFX/Roomtone_LivingRoom_CarsOutside_22A1374B.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1765704519" Name="PlayAmbience" DurationType="OneShot" DurationMin="76.83683" DurationMax="76.83683">
+				<Event Id="1765704519" Name="PlayAmbience" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="97728004"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AB9F0343-CD85-AB9E-58D8-B63D74A50185}">
+		<SoundBank Id="308675939" Type="User" Language="SFX" Hash="{6237EA2C-9473-E732-1E23-E5EE742D3820}">
+			<ShortName>JohnLemon</ShortName>
+			<Path>JohnLemon.bnk</Path>
+			<Media>
+				<File Id="14373136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_carpet_2.wav</ShortName>
+					<CachePath>SFX/Footstep_carpet_2_BCA767FE.wem</CachePath>
+				</File>
+				<File Id="31592375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_1.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_1_DDA92360.wem</CachePath>
+				</File>
+				<File Id="36513077" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_carpet_5.wav</ShortName>
+					<CachePath>SFX/Footstep_carpet_5_9F14989E.wem</CachePath>
+				</File>
+				<File Id="43829083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_tile_4.wav</ShortName>
+					<CachePath>SFX/Footstep_tile_4_0EDA2F15.wem</CachePath>
+				</File>
+				<File Id="53338028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_7.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_7_BEB06E3F.wem</CachePath>
+				</File>
+				<File Id="53435885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_tile_6.wav</ShortName>
+					<CachePath>SFX/Footstep_tile_6_DF8C1F7C.wem</CachePath>
+				</File>
+				<File Id="93957513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_wood_6.wav</ShortName>
+					<CachePath>SFX/Footstep_wood_6_4583BCA0.wem</CachePath>
+				</File>
+				<File Id="124540074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_wood_2.wav</ShortName>
+					<CachePath>SFX/Footstep_wood_2_49AAFD1C.wem</CachePath>
+				</File>
+				<File Id="134349442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_4.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_4_463F846B.wem</CachePath>
+				</File>
+				<File Id="161344702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_tile_1.wav</ShortName>
+					<CachePath>SFX/Footstep_tile_1_EE2D4920.wem</CachePath>
+				</File>
+				<File Id="168176786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_carpet_7.wav</ShortName>
+					<CachePath>SFX/Footstep_carpet_7_2CEF4147.wem</CachePath>
+				</File>
+				<File Id="193200324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_tile_5.wav</ShortName>
+					<CachePath>SFX/Footstep_tile_5_8434AA40.wem</CachePath>
+				</File>
+				<File Id="305950994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_9.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_9_B18FFF33.wem</CachePath>
+				</File>
+				<File Id="383007768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_8.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_8_D351F7BB.wem</CachePath>
+				</File>
+				<File Id="393583208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_3.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_3_A111360D.wem</CachePath>
+				</File>
+				<File Id="398411289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_tile_7.wav</ShortName>
+					<CachePath>SFX/Footstep_tile_7_2B473F92.wem</CachePath>
+				</File>
+				<File Id="415385863" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_6.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_6_15B08280.wem</CachePath>
+				</File>
+				<File Id="449465850" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_tile_2.wav</ShortName>
+					<CachePath>SFX/Footstep_tile_2_5A407C6F.wem</CachePath>
+				</File>
+				<File Id="477147806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_carpet_6.wav</ShortName>
+					<CachePath>SFX/Footstep_carpet_6_B912C5FD.wem</CachePath>
+				</File>
+				<File Id="547546002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_2.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_2_53FFFCAB.wem</CachePath>
+				</File>
+				<File Id="661306024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_wood_3.wav</ShortName>
+					<CachePath>SFX/Footstep_wood_3_129A0C43.wem</CachePath>
+				</File>
+				<File Id="686094006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_carpet_7.wav</ShortName>
+					<CachePath>SFX/Footstep_carpet_7_818F3B66.wem</CachePath>
+				</File>
+				<File Id="691853918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_wood_5.wav</ShortName>
+					<CachePath>SFX/Footstep_wood_5_9785B2D8.wem</CachePath>
+				</File>
+				<File Id="785657548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WoodCreaks_5.wav</ShortName>
+					<CachePath>SFX/WoodCreaks_5_59154FF5.wem</CachePath>
+				</File>
+				<File Id="785804744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_wood_7.wav</ShortName>
+					<CachePath>SFX/Footstep_wood_7_FC2235F0.wem</CachePath>
+				</File>
+				<File Id="842404422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_wood_1.wav</ShortName>
+					<CachePath>SFX/Footstep_wood_1_A3712B5C.wem</CachePath>
+				</File>
+				<File Id="882982404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_carpet_3.wav</ShortName>
+					<CachePath>SFX/Footstep_carpet_3_34DCAAB9.wem</CachePath>
+				</File>
+				<File Id="945019216" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_tile_3.wav</ShortName>
+					<CachePath>SFX/Footstep_tile_3_3C6E818F.wem</CachePath>
+				</File>
+				<File Id="965284162" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_tile_8.wav</ShortName>
+					<CachePath>SFX/Footstep_tile_8_851FE63F.wem</CachePath>
+				</File>
+				<File Id="970342114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_wood_4.wav</ShortName>
+					<CachePath>SFX/Footstep_wood_4_B4C52E3C.wem</CachePath>
+				</File>
+				<File Id="1016720947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_carpet_1.wav</ShortName>
+					<CachePath>SFX/Footstep_carpet_1_B4698A5D.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="947024894" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1088348632" Name="PlayFootsteps" DurationType="OneShot" DurationMin="0.18528746" DurationMax="1.644667">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="43829083"/>
+								<MediaRef Id="53435885"/>
+								<MediaRef Id="161344702"/>
+								<MediaRef Id="193200324"/>
+								<MediaRef Id="398411289"/>
+								<MediaRef Id="449465850"/>
+								<MediaRef Id="945019216"/>
+								<MediaRef Id="965284162"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="2058049674" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="31592375"/>
+								<MediaRef Id="53338028"/>
+								<MediaRef Id="93957513"/>
+								<MediaRef Id="124540074"/>
+								<MediaRef Id="134349442"/>
+								<MediaRef Id="305950994"/>
+								<MediaRef Id="383007768"/>
+								<MediaRef Id="393583208"/>
+								<MediaRef Id="415385863"/>
+								<MediaRef Id="547546002"/>
+								<MediaRef Id="661306024"/>
+								<MediaRef Id="691853918"/>
+								<MediaRef Id="785657548"/>
+								<MediaRef Id="785804744"/>
+								<MediaRef Id="842404422"/>
+								<MediaRef Id="970342114"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="947024894"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="2412606308"/>
+							<MediaRefs>
+								<MediaRef Id="14373136"/>
+								<MediaRef Id="36513077"/>
+								<MediaRef Id="168176786"/>
+								<MediaRef Id="477147806"/>
+								<MediaRef Id="686094006"/>
+								<MediaRef Id="882982404"/>
+								<MediaRef Id="1016720947"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="684570577" Name="Footstep_material">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+						<Switch Id="2637588553" Name="Tile"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A873FB2F-9860-8C2C-360F-D28371AB8B61}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -50,6 +251,15 @@
 				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="684570577" Name="Footstep_material">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+						<Switch Id="2637588553" Name="Tile"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick">
 					<Properties>
@@ -180,5 +390,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3E3E3983-0155-1F2A-5DFB-56D1D5903E2E}</FileHash>
+	<FileHash>{DF402A57-DCEF-13C4-A7D9-FB978F67876C}</FileHash>
 </SoundBanksInfo>

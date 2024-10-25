@@ -14,7 +14,24 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAYAMBIENCE = 1765704519U;
+        static const AkUniqueID PLAYFOOTSTEPS = 1088348632U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEP_MATERIAL
+        {
+            static const AkUniqueID GROUP = 684570577U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CARPET = 2412606308U;
+                static const AkUniqueID TILE = 2637588553U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEP_MATERIAL
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
@@ -34,6 +51,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID JOHNLEMON = 308675939U;
     } // namespace BANKS
 
     namespace BUSSES

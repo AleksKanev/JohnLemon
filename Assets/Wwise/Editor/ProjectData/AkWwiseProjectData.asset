@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Ambience
     guid: 71ca2d731c07c640a4fc5f0cfeab429d
     GuidInternal: 
-    m_lastTime: -8584721693543981227
+    m_lastTime: -8584719193072925559
     List:
     - name: Ambience
       guid: c59dc61faf7ece4faa46bd14ef6d1360
@@ -347,6 +347,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: c59dc61faf7ece4faa46bd14ef6d1360
       Path: SoundBanks\Ambience\Ambience
+    - name: JohnLemon
+      guid: b52948b4ebafeb429c223ac1c8b7363e
+      id: 308675939
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 71ca2d731c07c640a4fc5f0cfeab429d
+      - ElementName: JohnLemon
+        ObjectType: 7
+        guid: b52948b4ebafeb429c223ac1c8b7363e
+      Path: SoundBanks\Ambience\JohnLemon
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -361,36 +375,6 @@ MonoBehaviour:
     m_lastTime: -8584721831053115536
     List: []
   EventWwu:
-  - PhysicalPath: Events\Ambience.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Ambience
-      ObjectType: 12
-      guid: a4831ea1310f1e4b8b91befcaae9a5f9
-    ParentPath: Events\Ambience
-    guid: a4831ea1310f1e4b8b91befcaae9a5f9
-    GuidInternal: 
-    m_lastTime: -8584721695108147856
-    List:
-    - name: PlayAmbience
-      guid: 95ea1947ba9b774baed7bfb94df4e46f
-      id: 1765704519
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Ambience
-        ObjectType: 12
-        guid: a4831ea1310f1e4b8b91befcaae9a5f9
-      - ElementName: PlayAmbience
-        ObjectType: 3
-        guid: 95ea1947ba9b774baed7bfb94df4e46f
-      Path: Events\Ambience\PlayAmbience
-      maxAttenuation: 0
-      maxDuration: 76.83683
-      minDuration: 76.83683
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -404,6 +388,173 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584721831053245571
     List: []
+  - PhysicalPath: Events\Events.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Events
+      ObjectType: 12
+      guid: a4831ea1310f1e4b8b91befcaae9a5f9
+    ParentPath: Events\Events
+    guid: a4831ea1310f1e4b8b91befcaae9a5f9
+    GuidInternal: 
+    m_lastTime: -8584719188945913220
+    List:
+    - name: Ambience
+      guid: 04eae7c88d8ece4aade51bef31db8c8a
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 04eae7c88d8ece4aade51bef31db8c8a
+      Path: Events\Events\Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: JohnLemon
+      guid: 96bfa2ff5c225e4bbd2a41f88d2f5262
+      id: 308675939
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: JohnLemon
+        ObjectType: 4
+        guid: 96bfa2ff5c225e4bbd2a41f88d2f5262
+      Path: Events\Events\JohnLemon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayAmbience
+      guid: 95ea1947ba9b774baed7bfb94df4e46f
+      id: 1765704519
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 04eae7c88d8ece4aade51bef31db8c8a
+      - ElementName: PlayAmbience
+        ObjectType: 3
+        guid: 95ea1947ba9b774baed7bfb94df4e46f
+      Path: Events\Events\Ambience\PlayAmbience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayFootsteps
+      guid: 30205a215ce29049a67d9ebe83e44251
+      id: 1088348632
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: JohnLemon
+        ObjectType: 4
+        guid: 96bfa2ff5c225e4bbd2a41f88d2f5262
+      - ElementName: PlayFootsteps
+        ObjectType: 3
+        guid: 30205a215ce29049a67d9ebe83e44251
+      Path: Events\Events\JohnLemon\PlayFootsteps
+      maxAttenuation: 0
+      maxDuration: 1.644667
+      minDuration: 0.18528746
+    - name: PlayGhosts
+      guid: d49bdc28f976544a837ac32eb2058ea0
+      id: 3520174363
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 04eae7c88d8ece4aade51bef31db8c8a
+      - ElementName: PlayGhosts
+        ObjectType: 3
+        guid: d49bdc28f976544a837ac32eb2058ea0
+      Path: Events\Events\Ambience\PlayGhosts
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayGorgoyle
+      guid: c6f925d543fe64498f1ea063fcce8b8e
+      id: 559152257
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 04eae7c88d8ece4aade51bef31db8c8a
+      - ElementName: PlayGorgoyle
+        ObjectType: 3
+        guid: c6f925d543fe64498f1ea063fcce8b8e
+      Path: Events\Events\Ambience\PlayGorgoyle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayLights
+      guid: e6b9bd9922a9a8498f82ac063275aedf
+      id: 4130893732
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 04eae7c88d8ece4aade51bef31db8c8a
+      - ElementName: PlayLights
+        ObjectType: 3
+        guid: e6b9bd9922a9a8498f82ac063275aedf
+      Path: Events\Events\Ambience\PlayLights
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayShower
+      guid: bc8ca5866374a848a5a40bd98616e727
+      id: 4010423457
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events
+        ObjectType: 12
+        guid: a4831ea1310f1e4b8b91befcaae9a5f9
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 04eae7c88d8ece4aade51bef31db8c8a
+      - ElementName: PlayShower
+        ObjectType: 3
+        guid: bc8ca5866374a848a5a40bd98616e727
+      Path: Events\Events\Ambience\PlayShower
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -597,8 +748,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 38c9e6fce9de404a9dfb68f2630f6526
     GuidInternal: 
-    m_lastTime: -8584721831053185554
-    List: []
+    m_lastTime: -8584720116028343911
+    List:
+    - name: Footstep_material
+      guid: 20a13a23ef04744cb398e6486008a147
+      id: 684570577
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 38c9e6fce9de404a9dfb68f2630f6526
+      - ElementName: Footstep_material
+        ObjectType: 11
+        guid: 20a13a23ef04744cb398e6486008a147
+      Path: Switches\Default Work Unit\Footstep_material
+      values:
+      - name: Carpet
+        guid: f8434e61dbf6d842b649dc3aac2a23ad
+        id: 2412606308
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38c9e6fce9de404a9dfb68f2630f6526
+        - ElementName: Footstep_material
+          ObjectType: 11
+          guid: 20a13a23ef04744cb398e6486008a147
+        - ElementName: Carpet
+          ObjectType: 10
+          guid: f8434e61dbf6d842b649dc3aac2a23ad
+      - name: Tile
+        guid: 1fc0de3588ad304d8c75deedfe1f7421
+        id: 2637588553
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38c9e6fce9de404a9dfb68f2630f6526
+        - ElementName: Footstep_material
+          ObjectType: 11
+          guid: 20a13a23ef04744cb398e6486008a147
+        - ElementName: Tile
+          ObjectType: 10
+          guid: 1fc0de3588ad304d8c75deedfe1f7421
+      - name: Wood
+        guid: ae0fceca9d0dc547b3622e1440e58a82
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38c9e6fce9de404a9dfb68f2630f6526
+        - ElementName: Footstep_material
+          ObjectType: 11
+          guid: 20a13a23ef04744cb398e6486008a147
+        - ElementName: Wood
+          ObjectType: 10
+          guid: ae0fceca9d0dc547b3622e1440e58a82
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -614,7 +831,7 @@ MonoBehaviour:
     m_lastTime: -8584721831052858607
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 08000000090000000a000000c2000000c3000000
+  ExpandedWaapiItemIds: 050000000600000008000000090000000a0000000c0000000d000000110000001200000013000000c2000000c3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
