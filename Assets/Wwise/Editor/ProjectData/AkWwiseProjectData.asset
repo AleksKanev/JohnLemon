@@ -473,8 +473,8 @@ MonoBehaviour:
         guid: 30205a215ce29049a67d9ebe83e44251
       Path: Events\Events\JohnLemon\PlayFootsteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.644667
+      minDuration: 0.18528746
     - name: PlayGhosts
       guid: d49bdc28f976544a837ac32eb2058ea0
       id: 3520174363
