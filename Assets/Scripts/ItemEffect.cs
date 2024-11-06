@@ -27,6 +27,8 @@ public class WallDestroy : MonoBehaviour
                 two.SetActive(false);
                 three.SetActive(false);
                 four.SetActive(false);
+                five.SetActive(false);
+                six.SetActive(false);
             }
         }
     }
