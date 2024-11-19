@@ -10,6 +10,10 @@ public class GameEnding : MonoBehaviour
     public GameObject player;
     public CanvasGroup exitBackgroundImageCanvasGroup;
     public CanvasGroup caughtBackgroundImageCanvasGroup;
+    public GameObject Key_1;
+    public GameObject Key_2;
+    public GameObject Key_3;
+    public GameObject Key_4;
 
     bool m_IsPlayerAtExit;
     bool m_IsPlayerCaught;
@@ -32,7 +36,10 @@ public class GameEnding : MonoBehaviour
     {
         if (m_IsPlayerAtExit)
         {
-            EndLevel(exitBackgroundImageCanvasGroup, false);
+            if (!Key_1.active && !Key_2.active && !Key_3.active && !Key_4.active)
+            {
+                EndLevel(exitBackgroundImageCanvasGroup, false);
+            }
         }
         else if (m_IsPlayerCaught)
         {

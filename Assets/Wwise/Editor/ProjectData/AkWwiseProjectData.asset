@@ -473,8 +473,8 @@ MonoBehaviour:
         guid: 30205a215ce29049a67d9ebe83e44251
       Path: Events\Events\JohnLemon\PlayFootsteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.644667
+      minDuration: 0.18528746
     - name: PlayGhosts
       guid: d49bdc28f976544a837ac32eb2058ea0
       id: 3520174363
@@ -831,7 +831,7 @@ MonoBehaviour:
     m_lastTime: -8584717113600280199
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000008000000090000000a0000000c0000000d000000110000001200000013000000c2000000c3000000
+  ExpandedWaapiItemIds: 01000000050000000600000008000000090000000a0000000c0000000d000000110000001200000013000000c2000000c3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
